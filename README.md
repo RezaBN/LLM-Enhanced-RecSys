@@ -24,7 +24,7 @@ While the original paper utilized ChatGPT for representation generation, our imp
 ### Dataset
 
 * **Original Paper**: Douban Chinese Moviedata-10M - [Link](https://m.douban.com/doulist/901995/).
-* [cite_start]**Our Implementation**: Amazon Movie and TV dataset - [Link](https://jmcauley.ucsd.edu/data/amazon/).
+* **Our Implementation**: Amazon Movie and TV dataset - [Link](https://jmcauley.ucsd.edu/data/amazon/).
     * **Preprocessing**: Similar preprocessing steps (e.g., "leave-two-out" strategy, sampling 2000 users, max 10 reviews per user) were applied to simulate the few-shot scenario as described in the paper.
 
 ### LLM Approach for Representation Generation
